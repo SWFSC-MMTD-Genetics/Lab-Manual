@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "NOAA quarto simple" 
-  site-url: "https://nmfs-ost.github.io/PAM_template_lab_manual/" 
-  repo-url: "https://github.com/nmfs-ost/PAM_template_lab_manual"
+  site-url: "https://swfsc-mmtd-genetics.github.io/MMTD-Genetics/" 
+  repo-url: "https://github.com/SWFSC-MMTD-Genetics/MMTD-Genetics"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
+        href: https://swfsc-mmtd-genetics.github.io/MMTD-Genetics
         text: "NMFS National Passive Acoustic Monitoring Network"
       - icon: github
-        href: https://github.com/nmfs-ost/PAM_template_lab_manual
-        text: "NMFS PAM SI Lab Manual Template"
+        href: https://github.com/SWFSC-MMTD-Genetics/MMTD-Genetics
+        text: "SWFSC MMTD Genetics Lab Manual"
 
     style: "docked"
     search: true
