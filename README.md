@@ -1,4 +1,4 @@
-### Marine Mammal and Turtle Genetics Programs Lab Manual
+### Marine Mammal and Turtle Genetics Programs Lab Manual 🐢 🐬 🌊
 Blank lab manual for marine mammal and turtle genetics programs in the Marine Mammal and Turtle Divison at NOAA's Southwest Fisheries Science Center
 
 ### Disclaimer
