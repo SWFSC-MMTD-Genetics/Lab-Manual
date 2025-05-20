@@ -3,11 +3,11 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
+  title: "MMTD Genetics Lab Manual" 
   site-url: "https://swfsc-mmtd-genetics.github.io/MMTD-Genetics/" 
   repo-url: "https://github.com/SWFSC-MMTD-Genetics/MMTD-Genetics"
   repo-actions: [edit, source, issue]
-  favicon: content/images/dolphin_favicon.ico
+  favicon: dolphin_favicon.ico
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -15,8 +15,8 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
-    favicon: content/images/dolphin_favicon.ico
+    logo: content/images/dolphin_gen.jpg
+    favicon: dolphin_favicon.ico
     pinned: true
     align: center
     tools: 
