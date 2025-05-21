@@ -1,0 +1,79 @@
+name: 🧪 Lab Supply Shortage
+description: Report when a supply item is low or out of stock in the genetics lab
+title: "[Supply Shortage] Item name here"
+labels: ["supply", "shortage", "lab"]
+assignees: []
+
+body:
+  - type: input
+    id: item_name
+    attributes:
+      label: Item Name
+      description: What is the name of the item? Include brand and details if possible.
+      placeholder: e.g. 1.5 mL Eppendorf tubes (Eppendorf brand)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: item_type
+    attributes:
+      label: Item Type/Category
+      description: Select the general category this item falls under.
+      options:
+        - Plastics (tubes, pipette tips, etc.)
+        - Chemicals/Reagents
+        - Kits
+        - Enzymes
+        - Buffers
+        - Media/Serum
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Inventory Location
+      description: Where is this item normally stored? (Room, fridge/freezer, drawer, etc.)
+      placeholder: e.g. Freezer #2, middle drawer, left side
+    validations:
+      required: true
+
+  - type: input
+    id: quantity_left
+    attributes:
+      label: Quantity Left (if any)
+      description: How much is left? Leave blank if completely out.
+      placeholder: e.g. ~5 tubes left
+    validations:
+      required: false
+
+  - type: input
+    id: date_noticed
+    attributes:
+      label: Date Noticed
+      description: When did you notice it was low or out of stock? (YYYY-MM-DD)
+      placeholder: e.g. 2025-05-21
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency Level
+      description: How urgently is this needed?
+      options:
+        - 🚨 Critical – Research is blocked without it
+        - ⚠️ Important – Needed soon, but not immediately
+        - 🕒 Low – Can wait a few weeks
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes (Optional)
+      description: Anything else we should know? (e.g. alternate brands, who usually orders it)
+      placeholder: e.g. Could use brand X as a temporary replacement
+    validations:
+      required: false
