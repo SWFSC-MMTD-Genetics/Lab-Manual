@@ -2,8 +2,8 @@
 name: Task Tracker
 about: Use this template to track tasks with subtasks, assignees, labels, and dates
 title: "[Task] <Insert task title here>"
-labels: [task, needs-triage]
-assignees: ''
+labels: ["task", "needs-triage"]
+assignees: []
 ---
 
 ## 📌 Summary
