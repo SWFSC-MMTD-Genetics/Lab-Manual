@@ -1,8 +1,10 @@
 name: Task Tracker
 description: Track tasks with subtasks, assignees, labels, and dates
-title: "[Task] "
-labels: [task, needs-triage]
-assignees: []
+title: "[Task]: add task title "
+labels: ["task"]
+projects: ["Genetics Lab Management"]
+assignees: 
+  - kmartien
 body:
   - type: markdown
     attributes:
@@ -25,8 +27,8 @@ body:
       label: ✅ Subtasks
       description: List of subtasks and their assignees (you can edit this list)
       options:
-        - label: Subtask 1 — _@assignee_
-        - label: Subtask 2 — _@assignee_
+        - label: Subtask 1 — _@kourtney-burger_
+        - label: Subtask 2 — _@kmartien_
         - label: Subtask 3 — _@assignee_
 
   - type: input
