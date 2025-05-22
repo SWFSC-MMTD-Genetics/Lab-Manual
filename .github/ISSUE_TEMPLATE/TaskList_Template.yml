@@ -1,0 +1,64 @@
+name: Task Tracker
+description: Track tasks with subtasks, assignees, labels, and dates
+title: "[Task] "
+labels: [task, needs-triage]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📌 Summary
+        Please describe the task briefly.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Task Summary
+      description: A short summary of the task
+      placeholder: Describe the purpose of this task.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: subtasks
+    attributes:
+      label: ✅ Subtasks
+      description: List of subtasks and their assignees (you can edit this list)
+      options:
+        - label: Subtask 1 — _@assignee_
+        - label: Subtask 2 — _@assignee_
+        - label: Subtask 3 — _@assignee_
+
+  - type: input
+    id: labels
+    attributes:
+      label: 🗂 Suggested Labels
+      description: Suggest labels to categorize this issue
+      placeholder: e.g., frontend, backend, urgent
+
+  - type: input
+    id: start-date
+    attributes:
+      label: 🗓️ Start Date
+      description: When should this task begin?
+      placeholder: YYYY-MM-DD
+
+  - type: input
+    id: due-date
+    attributes:
+      label: 🗓️ Due Date
+      description: When should this task be completed?
+      placeholder: YYYY-MM-DD
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🧠 Context / Background
+      description: Add relevant background, links, or references
+      placeholder: Why is this task needed? Any related issues or documentation?
+
+  - type: textarea
+    id: progress
+    attributes:
+      label: 📊 Progress Tracker
+      description:
