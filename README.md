@@ -1,6 +1,8 @@
 ### Marine Mammal and Turtle Genetics Programs Lab Manual 🐢 🐬 🌊
 Blank lab manual for marine mammal and turtle genetics programs in the Marine Mammal and Turtle Divison at NOAA's Southwest Fisheries Science Center
 
+<hr>
+
 ### Acknowledgements
 This repo and GitHub Action was based on the tutorial by Openscapes [quarto-website-tutorial](https://github.com/Openscapes/quarto-website-tutorial) by Julia Lowndes and Stefanie Butland.
 
