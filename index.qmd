@@ -29,3 +29,8 @@ Here are some lab manuals to pull inspiration from
 -   [SWFSC Southwest Acoustic Ecology Lab Manual](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
 -   [Faylab Manual](https://thefaylab.github.io/lab-manual/)
 -   [SWFSC Glider Lab Manual](https://swfsc.github.io/glider-lab-manual/)
+
+Here are some example lab GitHub organizations
+- [Pinsky Lab](https://github.com/pinskylab)
+- [Weecology](https://github.com/weecology)
+- [The Frederickson Lab](https://github.com/The-Frederickson-Lab)
