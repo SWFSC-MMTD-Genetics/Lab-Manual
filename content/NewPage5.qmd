@@ -1,0 +1,19 @@
+---
+title: New Page
+---
+
+# New Heading
+
+-   Bullet list 1
+
+-   Bullet list 2
+
+## New Subheading 2
+
+1.  task
+
+2.  task
+
+### New Subheading 3
+
+![Embedded image](images/dolphin_gen.jpg)
