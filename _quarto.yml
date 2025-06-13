@@ -34,10 +34,15 @@ website:
       - href: index.qmd
         text: Home
       - href: content/NewPage1.qmd
+        text: Project Management
       - href: content/NewPage2.qmd
+        text: Collections
       - href: content/NewPage3.qmd
-      - href: content/NewPage4.qmd
-      - href: content/NewPage5.qmd
+        text: Inventory      
+#      - href: content/NewPage4.qmd
+#        text: Home      
+#      - href: content/NewPage5.qmd
+#        text: Home
       - section: "NMFS Open Science Directions"
         contents:
           - content/NMFS_OpenSciDirections/Getting-Started.qmd
