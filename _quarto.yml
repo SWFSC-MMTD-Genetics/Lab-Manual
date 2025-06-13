@@ -33,6 +33,11 @@ website:
     contents:
       - href: index.qmd
         text: Home
+      - href: content/NewPage1.qmd
+      - href: content/NewPage2.qmd
+      - href: content/NewPage3.qmd
+      - href: content/NewPage4.qmd
+      - href: content/NewPage5.qmd
       - section: "NMFS Open Science Directions"
         contents:
           - content/NMFS_OpenSciDirections/Getting-Started.qmd
